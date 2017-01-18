@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		052878501E2F185700F8F4AF /* SDAVAssetExportSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 0528784E1E2F185700F8F4AF /* SDAVAssetExportSession.h */; };
-		052878571E2F189900F8F4AF /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 052878561E2F189900F8F4AF /* SDAVAssetExportSession.m */; };
-		052878591E2F18A100F8F4AF /* SDAVAssetExportSessionPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 052878581E2F18A100F8F4AF /* SDAVAssetExportSessionPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0528785D1E2F1BF900F8F4AF /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 0528785C1E2F1BF900F8F4AF /* SDAVAssetExportSession.m */; };
+		0528785F1E2F1C1500F8F4AF /* SDAVAssetExportSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 0528785E1E2F1C1500F8F4AF /* SDAVAssetExportSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0528784B1E2F185700F8F4AF /* SDAVAssetExportSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDAVAssetExportSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0528784E1E2F185700F8F4AF /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSession.h; sourceTree = "<group>"; };
 		0528784F1E2F185700F8F4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		052878561E2F189900F8F4AF /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAVAssetExportSession.m; sourceTree = SOURCE_ROOT; };
-		052878581E2F18A100F8F4AF /* SDAVAssetExportSessionPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSessionPublic.h; sourceTree = SOURCE_ROOT; };
+		0528785C1E2F1BF900F8F4AF /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAVAssetExportSession.m; sourceTree = SOURCE_ROOT; };
+		0528785E1E2F1C1500F8F4AF /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSession.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +32,8 @@
 		052878411E2F185700F8F4AF = {
 			isa = PBXGroup;
 			children = (
+				0528785C1E2F1BF900F8F4AF /* SDAVAssetExportSession.m */,
+				0528785E1E2F1C1500F8F4AF /* SDAVAssetExportSession.h */,
 				0528784D1E2F185700F8F4AF /* SDAVAssetExportSession */,
 				0528784C1E2F185700F8F4AF /* Products */,
 			);
@@ -50,9 +50,6 @@
 		0528784D1E2F185700F8F4AF /* SDAVAssetExportSession */ = {
 			isa = PBXGroup;
 			children = (
-				052878581E2F18A100F8F4AF /* SDAVAssetExportSessionPublic.h */,
-				0528784E1E2F185700F8F4AF /* SDAVAssetExportSession.h */,
-				052878561E2F189900F8F4AF /* SDAVAssetExportSession.m */,
 				0528784F1E2F185700F8F4AF /* Info.plist */,
 			);
 			path = SDAVAssetExportSession;
@@ -65,8 +62,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052878591E2F18A100F8F4AF /* SDAVAssetExportSessionPublic.h in Headers */,
-				052878501E2F185700F8F4AF /* SDAVAssetExportSession.h in Headers */,
+				0528785F1E2F1C1500F8F4AF /* SDAVAssetExportSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052878571E2F189900F8F4AF /* SDAVAssetExportSession.m in Sources */,
+				0528785D1E2F1BF900F8F4AF /* SDAVAssetExportSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
